@@ -2,7 +2,7 @@ package snack4;
 
 public class Rettangolo extends Figura{
 
-    final   int base;
+    private int base;
 
     private int altezza;
 
