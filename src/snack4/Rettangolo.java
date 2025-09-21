@@ -2,7 +2,7 @@ package snack4;
 
 public class Rettangolo extends Figura{
 
-    private int base;
+    final   int base;
 
     private int altezza;
 
@@ -19,9 +19,19 @@ public class Rettangolo extends Figura{
         }
     }
 
+    
+
     @Override
     public double calcolaArea() {
         return this.base * this.altezza;
+    }
+
+    public void setBase(int base) {
+        this.base = base;
+    }
+
+    public void setAltezza(int altezza) {
+        this.altezza = altezza;
     }
 
 
