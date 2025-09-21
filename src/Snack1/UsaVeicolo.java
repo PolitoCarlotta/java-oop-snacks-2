@@ -1,4 +1,4 @@
-package Snack1;
+package snack1;
 
 public class UsaVeicolo {
     public static void main(String[] args) {

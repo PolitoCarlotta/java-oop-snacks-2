@@ -1,4 +1,4 @@
-package Snack1;
+package snack1;
 
 public class Veicolo {
     
